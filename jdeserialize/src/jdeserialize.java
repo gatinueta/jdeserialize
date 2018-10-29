@@ -224,7 +224,8 @@ public class jdeserialize {
             case OBJECT:
             case ARRAY:
                 byte stc = dis.readByte();
-                if(f == fieldtype.ARRAY && stc != ObjectStreamConstants.TC_ARRAY) {
+                // FIX for https://github.com/pwntester/jdeserialize/issues/3
+                if(f == fieldtype.ARRAY && (stc != ObjectStreamConstants.TC_ARRAY && stc != ObjectStreamConstants.TC_NULL)) {
                     throw new IOException("array type listed, but typecode is not TC_ARRAY: " + hex(stc));
                 }
                 content c = read_Content(stc, dis, false);
