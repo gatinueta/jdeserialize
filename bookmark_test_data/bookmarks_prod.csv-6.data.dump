@@ -1,0 +1,1334 @@
+read: org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// BEGIN stream content output
+org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// END stream content output
+
+//// BEGIN class declarations (excluding array classes)
+class com.bsiag.crm.shared.core.ticket.OwnTicketTablePageParam extends com.bsiag.crm.shared.core.ticket.AbstractTicketTablePageParam implements java.io.Serializable {
+}
+
+class com.bsiag.crm.shared.core.ticket.AbstractTicketTablePageParam extends com.bsiag.crm.shared.core.AbstractPageParam implements java.io.Serializable {
+}
+
+class java.lang.Boolean implements java.io.Serializable {
+    boolean value;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState implements java.io.Serializable {
+    boolean m_groupingActive;
+    boolean m_sortAscending;
+    int m_sortOrder;
+    int m_width;
+    java.lang.String m_aggregationFunction;
+    java.lang.String m_backgroundEffect;
+    java.lang.String m_className;
+    byte[] m_columnFilterData;
+    java.lang.Boolean m_displayable;
+    java.lang.Boolean m_visible;
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreTablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    boolean m_searchFilterComplete;
+    java.util.List m_availableColumns;
+    org.eclipse.scout.rt.platform.util.CompositeObject m_expandedChildPrimaryKey;
+    java.lang.String m_searchFilterState;
+    java.lang.String m_searchFormState;
+    java.util.List m_selectedChildrenPrimaryKeys;
+    byte[] m_tableCustomizerData;
+    byte[] m_userFilterData;
+    java.util.List m_visibleColumns;
+}
+
+class com.bsiag.crm.shared.core.AbstractPageParam implements java.io.Serializable {
+}
+
+class com.bsiag.crm.shared.core.workview.WorkNodePageParam extends com.bsiag.crm.shared.core.AbstractPageParam implements java.io.Serializable {
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    java.lang.String m_bookmarkIdentifier;
+    java.lang.Boolean m_expanded;
+    java.lang.String m_label;
+    java.lang.String m_pageClassName;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreNodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class java.util.ArrayList implements java.io.Serializable {
+    int size;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark implements java.io.Serializable {
+    long m_id;
+    int m_kind;
+    boolean m_new;
+    double m_order;
+    java.lang.String m_iconId;
+    java.lang.String m_keyStroke;
+    java.lang.String m_outlineClassName;
+    java.util.List m_path;
+    java.lang.String m_text;
+    java.lang.String m_title;
+}
+
+//// END class declarations
+
+//// BEGIN instance dump
+[instance 0x7e007a: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 0
+]
+[instance 0x7e0076: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0077: [String 0x7e0077: "$PostFetchRowData$"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0074: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0075: [String 0x7e0075: "CtiCallMenuBeans"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0072: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 100
+        m_className: r0x7e0073: [String 0x7e0073: "Partition"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e006f: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0071: [String 0x7e0071: "IsScrumBusiness"]
+        m_aggregationFunction: r0x7e0070: [String 0x7e0070: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e006d: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 150
+        m_className: r0x7e006e: [String 0x7e006e: "InChargeOf"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e006b: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 190
+        m_className: r0x7e006c: [String 0x7e006c: "SolvedInDelivery"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0069: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 190
+        m_className: r0x7e006a: [String 0x7e006a: "ReportedInDelivery"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0067: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e0068: [String 0x7e0068: "Testcycle"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0065: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e0066: [String 0x7e0066: "Testcase"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0063: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 300
+        m_className: r0x7e0064: [String 0x7e0064: "AcceptanceCriteria"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0061: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e0062: [String 0x7e0062: "Notes"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e005f: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0060: [String 0x7e0060: "TicketSummary"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e005d: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e005e: [String 0x7e005e: "Description"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e005b: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 120
+        m_className: r0x7e005c: [String 0x7e005c: "TerminatedOn"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0058: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 100
+        m_className: r0x7e005a: [String 0x7e005a: "DurationD"]
+        m_aggregationFunction: r0x7e0059: [String 0x7e0059: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0056: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 130
+        m_className: r0x7e0057: [String 0x7e0057: "RegistrationDate"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0054: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 150
+        m_className: r0x7e0055: [String 0x7e0055: "Activity"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0051: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 100
+        m_className: r0x7e0053: [String 0x7e0053: "WorkedH"]
+        m_aggregationFunction: r0x7e0052: [String 0x7e0052: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e004e: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 90
+        m_className: r0x7e0050: [String 0x7e0050: "EffortEstimation"]
+        m_aggregationFunction: r0x7e004f: [String 0x7e004f: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e004b: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 170
+        m_className: r0x7e004d: [String 0x7e004d: "CostEstimation"]
+        m_aggregationFunction: r0x7e004c: [String 0x7e004c: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0049: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 120
+        m_className: r0x7e004a: [String 0x7e004a: "Classification"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0047: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: 0
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 120
+        m_className: r0x7e0048: [String 0x7e0048: "AssignedOn"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0045: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 150
+        m_className: r0x7e0046: [String 0x7e0046: "Phase"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0043: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 108
+        m_className: r0x7e0044: [String 0x7e0044: "DueDate"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0041: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 150
+        m_className: r0x7e0042: [String 0x7e0042: "Business"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e003f: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 150
+        m_className: r0x7e0040: [String 0x7e0040: "Editor"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e003d: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 120
+        m_className: r0x7e003e: [String 0x7e003e: "ReportedBy"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e003b: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 120
+        m_className: r0x7e003c: [String 0x7e003c: "ReferenceNo"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0038: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 70
+        m_className: r0x7e003a: [String 0x7e003a: "AbsolutePriority"]
+        m_aggregationFunction: r0x7e0039: [String 0x7e0039: "none"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0036: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 32
+        m_className: r0x7e0037: [String 0x7e0037: "Icon"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0033: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 100
+        m_className: r0x7e0035: [String 0x7e0035: "StoryPoints"]
+        m_aggregationFunction: r0x7e0034: [String 0x7e0034: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0031: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0032: [String 0x7e0032: "TicketKey"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e002e: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0030: [String 0x7e0030: "Sprint"]
+        m_aggregationFunction: r0x7e002f: [String 0x7e002f: "sum"]
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e002c: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 100
+        m_className: r0x7e002d: [String 0x7e002d: "BusinessPriority"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e002a: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e002b: [String 0x7e002b: "CodeName"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0028: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 60
+        m_className: r0x7e0029: [String 0x7e0029: "External"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0027: 0x7e001f/java.lang.Boolean
+  field data:
+    0x7e001f/java.lang.Boolean:
+        value: false
+]
+[instance 0x7e0025: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 200
+        m_className: r0x7e0026: [String 0x7e0026: "Topic"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0023: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 134
+        m_className: r0x7e0024: [String 0x7e0024: "Reference"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e0020: 0x7e001f/java.lang.Boolean
+  field data:
+    0x7e001f/java.lang.Boolean:
+        value: true
+]
+[instance 0x7e0021: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 127
+        m_className: r0x7e0022: [String 0x7e0022: "TicketNo"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e001d: 0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001c/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_groupingActive: false
+        m_sortOrder: -1
+        m_displayable: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_visible: r0x7e0020: java.lang.Boolean _h0x7e0020 = r_0x7e001f;  
+        m_sortAscending: false
+        m_width: 148
+        m_className: r0x7e001e: [String 0x7e001e: "3d62c2a0-f84e-4954-80b1-406aba883917"]
+        m_aggregationFunction: null
+        m_columnFilterData: null
+        m_backgroundEffect: null
+]
+[instance 0x7e001b: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e001d = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0021 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0023 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0025 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0028 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002a = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002c = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002e = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0031 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0033 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0036 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0038 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003b = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003d = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003f = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0041 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0043 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0045 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0047 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0049 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004b = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004e = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0051 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0054 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0056 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0058 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005b = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005d = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005f = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0061 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0063 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0065 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0067 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0069 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006b = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006d = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006f = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0072 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0074 = r_0x7e001c;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0076 = r_0x7e001c;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 40
+]
+[instance 0x7e0018: 0x7e0014/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState
+  field data:
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e001a: [String 0x7e001a: "com.bsiag.crm.client.core.ticket.OwnTicketTablePage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: r0x7e0019: [String 0x7e0019: "Tickets"]
+    0x7e0015/org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState:
+        m_searchFilterState: r0x7e0078: [String 0x7e0078: "2443398072"]
+        m_selectedChildrenPrimaryKeys: r0x7e007a: java.util.ArrayList _h0x7e007a = r_0x7e0005;  
+        m_userFilterData: r0x7e007d: [array 0x7e007d classdesc [cd 0x7e007b: name [B uid -5984413125824719648]: [arraycoll sz 58 -84, -19, 0, 5, 115, 114, 0, 19, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, 116, 120, -127, -46, 29, -103, -57, 97, -99, 3, 0, 1, 73, 0, 4, 115, 105, 122, 101, 120, 112, 0, 0, 0, 0, 119, 4, 0, 0, 0, 0, 120]
+        m_availableColumns: r0x7e001b: java.util.ArrayList _h0x7e001b = r_0x7e0005;  
+        m_searchFormState: r0x7e0079: [String 0x7e0079: "<?xml version="1.0" encoding="UTF-8"?>
+<form-state formId="TicketSearchForm" formQname="com.bsiag.crm.client.core.ticket.TicketSearchForm">
+  <properties>
+    <property name="semanticDomainKeyDescriptor" value="rO0ABXNyADRjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLnRpY2tldC5UaWNrZXRLZXlEZXNjcmlwdG9yAAAAAAAAAAECAAB4cgA8Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5LZXlEZXNjcmlwdG9yAAAAAAAAAAECAAB4cA=="/>
+    <property name="searchUserKey" value=""/>
+  </properties>
+  <fields>
+    <field fieldId="MainBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox"/>
+    <field fieldId="TabBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox"/>
+    <field fieldId="SimpleBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox"/>
+    <field fieldId="SearchFromField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$SearchFromField" value=""/>
+    <field fieldId="TicketNameField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$TicketNameField" value=""/>
+    <field fieldId="CompanyNameField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$CompanyNameField" value=""/>
+    <field fieldId="PersonNameField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$PersonNameField" value=""/>
+    <field fieldId="BusinessNameField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$BusinessNameField" value=""/>
+    <field fieldId="KeywordsField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$KeywordsField" value=""/>
+    <field fieldId="ActiveField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$ActiveField" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE="/>
+    <field fieldId="ReportedByField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$ReportedByField" value=""/>
+    <field fieldId="InChargeOfField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$InChargeOfField" value=""/>
+    <field fieldId="MyRoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$MyRoleField" value=""/>
+    <field fieldId="FillerField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$SimpleBox$FillerField"/>
+    <field fieldId="DetailBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox"/>
+    <field fieldId="RegistrationDateBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$RegistrationDateBox"/>
+    <field fieldId="RegistrationDateFrom" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$RegistrationDateBox$RegistrationDateFrom" value=""/>
+    <field fieldId="RegistrationDateTo" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$RegistrationDateBox$RegistrationDateTo" value=""/>
+    <field fieldId="DueDateBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$DueDateBox"/>
+    <field fieldId="DueDateFrom" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$DueDateBox$DueDateFrom" value=""/>
+    <field fieldId="DueDateTo" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$DueDateBox$DueDateTo" value=""/>
+    <field fieldId="SprintBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$SprintBox"/>
+    <field fieldId="SprintFromField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$SprintBox$SprintFromField" value=""/>
+    <field fieldId="SprintToField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$SprintBox$SprintToField" value=""/>
+    <field fieldId="TestcaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$TestcaseField" value=""/>
+    <field fieldId="PriorityBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PriorityBox"/>
+    <field fieldId="PriorityFrom" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PriorityBox$PriorityFrom" value=""/>
+    <field fieldId="PriorityTo" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PriorityBox$PriorityTo" value=""/>
+    <field fieldId="BusinessPriorityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$BusinessPriorityField" value=""/>
+    <field fieldId="TopicField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$TopicField" value=""/>
+    <field fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="PhaseHistoryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$DetailBox$PhaseHistoryField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="BusinessBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox"/>
+    <field fieldId="BusinessField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$BusinessField" value=""/>
+    <field fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="ActivityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ActivityField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="SolvedInDeliveryField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$SolvedInDeliveryField" value=""/>
+    <field fieldId="TestcycleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$TestcycleField" value=""/>
+    <field fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="ClassificationField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$ClassificationField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="PhaseField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$BusinessBox$PhaseField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ResponsibilityBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox"/>
+    <field fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAnNyAC1jb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLk93blJlc3BvbnNpYmxlRW50cnkAAAAAAAAAAQIAAUwADm1fcGFydGl0aW9uVWlkdAAyTGNvbS9ic2lhZy9jcm0vc2hhcmVkL2NvcmUvY29uZmlndXJhdGlvbi9jb2RlL1VpZDt4cHBzcgA0Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5TdWJzdGl0dXRlUmVzcG9uc2libGVFbnRyeQAAAAAAAAABAgABTAAJbV91c2VyS2V5dAAoTGNvbS9ic2lhZy9jcm0vc2hhcmVkL2NvcmUvdXNlci9Vc2VyS2V5O3hwcHg="/>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="ResponsibilityField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$ResponsibilityField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAXNyADBjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbmZpZ3VyYXRpb24uY29kZS5VaWQAAAAAAAAAAQIAAloAFW1fc3VwcHJlc3NSZWFkUmVzb2x2ZUwADG1fY29kZVR5cGVJZHQAEExqYXZhL2xhbmcvTG9uZzt4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAAAAFImwAc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAAABSJqeA=="/>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="RoleField" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$ResponsibilityBox$RoleField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    <field fieldId="ComposerField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ComposerField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="EntityAttributeBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="EntityAttributeSearchField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox$EntityAttributeSearchField"/>
+    <field fieldId="EntityAttributeField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox$EntityAttributeField"/>
+    <field fieldId="ValueBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="OpBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="AggregationField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox$AggregationField"/>
+    <field fieldId="OperatorField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox$OperatorField"/>
+    <field fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    <field fieldId="InfoBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox$InfoBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="InfoField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox$InfoBox$InfoField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="MultilineStringField" fieldQname="com.bsiag.crm.client.core.common.field.CoreComposerValueBoxExtension$MultilineStringField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenBigDecimalField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField$BigDecimalFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField$BigDecimalToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenDateField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField$DateFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField$DateToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenDateTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField$DateTimeFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField$DateTimeToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenIntegerField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField$IntegerFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField$IntegerToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenLongField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="LongFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField$LongFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="LongToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField$LongToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField$TimeFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField$TimeToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BigDecimalField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$DateField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$DateTimeField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$IntegerField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="LongField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$LongField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="SmartField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$SmartField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="StringField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$StringField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TimeField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AddButton" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$AddButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    <field fieldId="CategoryBox" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategorySearchField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox$CategorySearchField" value="">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategoryTreeField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox$CategoryTreeField">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchLabelField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$SearchLabelField" value="">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchDisplayField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$SearchDisplayField" rows="rO0ABXVyABRbW0xqYXZhLmxhbmcuT2JqZWN0Oxi/+1Pka9vKAgAAeHAAAAAA" selectedRowIndices="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategoryComposerField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryComposerField">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchButton" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$SearchButton"/>
+    <field fieldId="ResetButton" fieldQname="com.bsiag.crm.client.core.ticket.TicketSearchForm$MainBox$ResetButton"/>
+  </fields>
+</form-state>
+"]
+        m_expandedChildPrimaryKey: null
+        m_visibleColumns: null
+        m_tableCustomizerData: r0x7e007c: [array 0x7e007c classdesc [cd 0x7e007b: name [B uid -5984413125824719648]: [arraycoll sz 1061 -84, -19, 0, 5, 115, 114, 0, 19, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, 116, 120, -127, -46, 29, -103, -57, 97, -99, 3, 0, 1, 73, 0, 4, 115, 105, 122, 101, 120, 112, 0, 0, 0, 1, 119, 4, 0, 0, 0, 1, 115, 114, 0, 55, 99, 111, 109, 46, 98, 115, 105, 97, 103, 46, 99, 114, 109, 46, 115, 104, 97, 114, 101, 100, 46, 99, 111, 114, 101, 46, 99, 111, 109, 109, 111, 110, 46, 67, 117, 115, 116, 111, 109, 67, 111, 108, 117, 109, 110, 68, 101, 115, 99, 114, 105, 112, 116, 111, 114, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 14, 90, 0, 18, 109, 95, 103, 114, 111, 117, 112, 69, 113, 117, 97, 108, 86, 97, 108, 117, 101, 115, 73, 0, 18, 109, 95, 109, 97, 120, 80, 111, 115, 116, 70, 101, 116, 99, 104, 82, 111, 119, 115, 73, 0, 18, 109, 95, 109, 105, 103, 114, 97, 116, 105, 111, 110, 86, 101, 114, 115, 105, 111, 110, 90, 0, 11, 109, 95, 109, 117, 108, 116, 105, 108, 105, 110, 101, 90, 0, 16, 109, 95, 109, 117, 108, 116, 105, 112, 108, 101, 86, 97, 108, 117, 101, 115, 90, 0, 14, 109, 95, 117, 115, 101, 72, 116, 109, 108, 84, 97, 98, 108, 101, 76, 0, 9, 109, 95, 99, 111, 108, 117, 109, 110, 115, 116, 0, 16, 76, 106, 97, 118, 97, 47, 117, 116, 105, 108, 47, 76, 105, 115, 116, 59, 76, 0, 8, 109, 95, 102, 111, 114, 109, 97, 116, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 76, 0, 4, 109, 95, 105, 100, 113, 0, 126, 0, 4, 76, 0, 6, 109, 95, 110, 97, 109, 101, 113, 0, 126, 0, 4, 76, 0, 19, 109, 95, 115, 101, 97, 114, 99, 104, 70, 111, 114, 109, 68, 97, 116, 97, 77, 97, 112, 116, 0, 15, 76, 106, 97, 118, 97, 47, 117, 116, 105, 108, 47, 77, 97, 112, 59, 76, 0, 15, 109, 95, 115, 101, 97, 114, 99, 104, 70, 111, 114, 109, 88, 109, 108, 113, 0, 126, 0, 4, 76, 0, 11, 109, 95, 115, 111, 114, 116, 73, 110, 100, 101, 120, 116, 0, 19, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 73, 110, 116, 101, 103, 101, 114, 59, 76, 0, 12, 109, 95, 115, 111, 114, 116, 105, 110, 103, 85, 105, 100, 116, 0, 50, 76, 99, 111, 109, 47, 98, 115, 105, 97, 103, 47, 99, 114, 109, 47, 115, 104, 97, 114, 101, 100, 47, 99, 111, 114, 101, 47, 99, 111, 110, 102, 105, 103, 117, 114, 97, 116, 105, 111, 110, 47, 99, 111, 100, 101, 47, 85, 105, 100, 59, 120, 112, 0, 0, 0, 0, 20, 0, 0, 0, 4, 1, 0, 0, 115, 113, 0, 126, 0, 0, 0, 0, 0, 1, 119, 4, 0, 0, 0, 1, 115, 114, 0, 49, 99, 111, 109, 46, 98, 115, 105, 97, 103, 46, 99, 114, 109, 46, 115, 104, 97, 114, 101, 100, 46, 99, 111, 114, 101, 46, 99, 111, 109, 109, 111, 110, 46, 67, 117, 115, 116, 111, 109, 67, 111, 108, 117, 109, 110, 85, 110, 105, 116, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 5, 73, 0, 17, 109, 95, 97, 103, 103, 114, 101, 103, 97, 116, 105, 111, 110, 84, 121, 112, 101, 90, 0, 15, 109, 95, 115, 111, 114, 116, 65, 115, 99, 101, 110, 100, 105, 110, 103, 73, 0, 11, 109, 95, 115, 111, 114, 116, 73, 110, 100, 101, 120, 76, 0, 7, 109, 95, 97, 108, 105, 97, 115, 113, 0, 126, 0, 4, 76, 0, 27, 109, 95, 97, 116, 116, 114, 105, 98, 117, 116, 101, 69, 120, 116, 101, 114, 110, 97, 108, 73, 100, 72, 111, 108, 100, 101, 114, 116, 0, 60, 76, 99, 111, 109, 47, 98, 115, 105, 97, 103, 47, 99, 114, 109, 47, 115, 104, 97, 114, 101, 100, 47, 99, 111, 114, 101, 47, 99, 111, 109, 109, 111, 110, 47, 68, 97, 116, 97, 77, 111, 100, 101, 108, 69, 120, 116, 101, 114, 110, 97, 108, 73, 100, 72, 111, 108, 100, 101, 114, 59, 120, 112, 0, 0, 0, 0, 1, -1, -1, -1, -1, 116, 0, 25, 84, 105, 99, 107, 101, 116, 73, 110, 67, 104, 97, 114, 103, 101, 79, 102, 65, 116, 116, 114, 105, 98, 117, 116, 101, 115, 114, 0, 58, 99, 111, 109, 46, 98, 115, 105, 97, 103, 46, 99, 114, 109, 46, 115, 104, 97, 114, 101, 100, 46, 99, 111, 114, 101, 46, 99, 111, 109, 109, 111, 110, 46, 68, 97, 116, 97, 77, 111, 100, 101, 108, 69, 120, 116, 101, 114, 110, 97, 108, 73, 100, 72, 111, 108, 100, 101, 114, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 1, 76, 0, 12, 109, 95, 101, 120, 116, 101, 114, 110, 97, 108, 73, 100, 113, 0, 126, 0, 4, 120, 112, 116, 0, 38, 84, 105, 99, 107, 101, 116, 69, 110, 116, 105, 116, 121, 47, 84, 105, 99, 107, 101, 116, 73, 110, 67, 104, 97, 114, 103, 101, 79, 102, 65, 116, 116, 114, 105, 98, 117, 116, 101, 120, 112, 116, 0, 36, 51, 100, 54, 50, 99, 50, 97, 48, 45, 102, 56, 52, 101, 45, 52, 57, 53, 52, 45, 56, 48, 98, 49, 45, 52, 48, 54, 97, 98, 97, 56, 56, 51, 57, 49, 55, 116, 0, 10, 90, 117, 115, 116, -61, -92, 110, 100, 105, 103, 115, 114, 0, 17, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 72, 97, 115, 104, 77, 97, 112, 5, 7, -38, -63, -61, 22, 96, -47, 3, 0, 2, 70, 0, 10, 108, 111, 97, 100, 70, 97, 99, 116, 111, 114, 73, 0, 9, 116, 104, 114, 101, 115, 104, 111, 108, 100, 120, 112, 63, 64, 0, 0, 0, 0, 0, 0, 119, 8, 0, 0, 0, 16, 0, 0, 0, 0, 120, 112, 112, 112, 120]
+        m_searchFilterComplete: false
+    0x7e0014/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState:
+        m_pageParam: r0x7e0080: com.bsiag.crm.shared.core.ticket.OwnTicketTablePageParam _h0x7e0080 = r_0x7e007e;  
+]
+[instance 0x7e0013: 0x7e0011/com.bsiag.crm.shared.core.workview.WorkNodePageParam
+  field data:
+    0x7e0012/com.bsiag.crm.shared.core.AbstractPageParam:
+    0x7e0011/com.bsiag.crm.shared.core.workview.WorkNodePageParam:
+]
+[instance 0x7e000e: 0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState
+  field data:
+    0x7e0009/org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState:
+    0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState:
+        m_pageParam: r0x7e0013: com.bsiag.crm.shared.core.workview.WorkNodePageParam _h0x7e0013 = r_0x7e0011;  
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e0010: [String 0x7e0010: "com.bsiag.crm.client.core.common.WorkNodePage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: r0x7e000f: [String 0x7e000f: "Arbeit"]
+]
+[instance 0x7e000c: 0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState
+  field data:
+    0x7e0009/org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState:
+    0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState:
+        m_pageParam: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e000d: [String 0x7e000d: "org.eclipse.scout.rt.client.ui.desktop.outline.AbstractOutline$InvisibleRootPage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: null
+]
+[instance 0x7e0006: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        com.bsiag.crm.shared.core.bookmarks.CoreNodePageState _h0x7e000c = r_0x7e0007;  
+        com.bsiag.crm.shared.core.bookmarks.CoreNodePageState _h0x7e000e = r_0x7e0007;  
+        com.bsiag.crm.shared.core.bookmarks.CoreTablePageState _h0x7e0018 = r_0x7e0014;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 3
+]
+[instance 0x7e0003: 0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark
+  field data:
+    0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark:
+        m_order: 9000.0
+        m_keyStroke: null
+        m_path: r0x7e0006: java.util.ArrayList _h0x7e0006 = r_0x7e0005;  
+        m_iconId: null
+        m_outlineClassName: r0x7e0004: [String 0x7e0004: "com.bsiag.crm.client.core.desktop.PersonalOutline"]
+        m_title: r0x7e0082: [String 0x7e0082: "Tickets FA"]
+        m_new: false
+        m_id: 1616584400
+        m_kind: 1
+        m_text: r0x7e0081: [String 0x7e0081: "Arbeit
+  Tickets
+    Offen = Ja
+    Zuständigkeit ist Eigene, Stellvertretung
+    Rolle ist Zuständig"]
+]
+[instance 0x7e0080: 0x7e007e/com.bsiag.crm.shared.core.ticket.OwnTicketTablePageParam
+  field data:
+    0x7e007e/com.bsiag.crm.shared.core.ticket.OwnTicketTablePageParam:
+    0x7e0012/com.bsiag.crm.shared.core.AbstractPageParam:
+    0x7e007f/com.bsiag.crm.shared.core.ticket.AbstractTicketTablePageParam:
+]
+//// END instance dump
+

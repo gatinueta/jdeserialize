@@ -1,0 +1,609 @@
+read: org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// BEGIN stream content output
+org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// END stream content output
+
+//// BEGIN class declarations (excluding array classes)
+class java.lang.Boolean implements java.io.Serializable {
+    boolean value;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState implements java.io.Serializable {
+    boolean m_groupingActive;
+    boolean m_sortAscending;
+    int m_sortOrder;
+    int m_width;
+    java.lang.String m_aggregationFunction;
+    java.lang.String m_backgroundEffect;
+    java.lang.String m_className;
+    byte[] m_columnFilterData;
+    java.lang.Boolean m_displayable;
+    java.lang.Boolean m_visible;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    boolean m_searchFilterComplete;
+    java.util.List m_availableColumns;
+    org.eclipse.scout.rt.platform.util.CompositeObject m_expandedChildPrimaryKey;
+    java.lang.String m_searchFilterState;
+    java.lang.String m_searchFormState;
+    java.util.List m_selectedChildrenPrimaryKeys;
+    byte[] m_tableCustomizerData;
+    byte[] m_userFilterData;
+    java.util.List m_visibleColumns;
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreTablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    java.lang.String m_bookmarkIdentifier;
+    java.lang.Boolean m_expanded;
+    java.lang.String m_label;
+    java.lang.String m_pageClassName;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreNodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class java.util.ArrayList implements java.io.Serializable {
+    int size;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark implements java.io.Serializable {
+    long m_id;
+    int m_kind;
+    boolean m_new;
+    double m_order;
+    java.lang.String m_iconId;
+    java.lang.String m_keyStroke;
+    java.lang.String m_outlineClassName;
+    java.util.List m_path;
+    java.lang.String m_text;
+    java.lang.String m_title;
+}
+
+//// END class declarations
+
+//// BEGIN instance dump
+[instance 0x7e0055: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 0
+]
+[instance 0x7e0051: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 160
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0052: [String 0x7e0052: "CarDeliveryDate"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004f: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 194
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0050: [String 0x7e0050: "StatusCarDeliveryDate"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004d: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 187
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e004e: [String 0x7e004e: "ObjectCostSettlement"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004b: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e004c: [String 0x7e004c: "CarStatus"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0049: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e004a: [String 0x7e004a: "ResponsibleUser"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0047: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 186
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0048: [String 0x7e0048: "ConfirmationDate"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0045: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 163
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0046: [String 0x7e0046: "ConfirmationNo"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0043: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 138
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0044: [String 0x7e0044: "ObjectsOutstanding"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0041: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 120
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0042: [String 0x7e0042: "ObjectsDelivered"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003f: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 170
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0040: [String 0x7e0040: "MissingAssetNumbers"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003d: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 108
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e003e: [String 0x7e003e: "ObjectCount"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003b: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 132
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e003c: [String 0x7e003c: "OrderDateSAP"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0039: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 110
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e003a: [String 0x7e003a: "OrderNumberSAP"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0037: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 120
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0038: [String 0x7e0038: "OrderType"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0035: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0036: [String 0x7e0036: "Status"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0033: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0034: [String 0x7e0034: "To"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0031: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0032: [String 0x7e0032: "From"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002f: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 100
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0030: [String 0x7e0030: "SentOn"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002d: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 124
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e002e: [String 0x7e002e: "CompiledOn"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002b: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e002c: [String 0x7e002c: "ObjectNr"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0028: 0x7e001e/java.lang.Boolean
+  field data:
+    0x7e001e/java.lang.Boolean:
+        value: true
+]
+[instance 0x7e0029: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 160
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e002a: [String 0x7e002a: "Supplier"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0026: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0027: [String 0x7e0027: "OrderNumber"]
+        m_groupingActive: false
+        m_visible: r0x7e0028: java.lang.Boolean _h0x7e0028 = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0024: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 60
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0025: [String 0x7e0025: "Outline"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0022: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 0
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0023: [String 0x7e0023: "CarNumberId"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0020: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 0
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e0021: [String 0x7e0021: "CompanyNumberId"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e001f: 0x7e001e/java.lang.Boolean
+  field data:
+    0x7e001e/java.lang.Boolean:
+        value: false
+]
+[instance 0x7e001b: 0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e001a/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e001c: [String 0x7e001c: "sum"]
+        m_width: 0
+        m_displayable: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_backgroundEffect: null
+        m_className: r0x7e001d: [String 0x7e001d: "OrderNumberId"]
+        m_groupingActive: false
+        m_visible: r0x7e001f: java.lang.Boolean _h0x7e001f = r_0x7e001e;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0019: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e001b = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0020 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0022 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0024 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0026 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0029 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002b = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002d = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002f = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0031 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0033 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0035 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0037 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0039 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003b = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003d = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003f = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0041 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0043 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0045 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0047 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0049 = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004b = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004d = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004f = r_0x7e001a;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0051 = r_0x7e001a;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 26
+]
+[instance 0x7e0015: 0x7e0011/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState
+  field data:
+    0x7e0012/org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState:
+        m_selectedChildrenPrimaryKeys: r0x7e0055: java.util.ArrayList _h0x7e0055 = r_0x7e0005;  
+        m_userFilterData: r0x7e0057: [array 0x7e0057 classdesc [cd 0x7e0056: name [B uid -5984413125824719648]: [arraycoll sz 58 -84, -19, 0, 5, 115, 114, 0, 19, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, 116, 120, -127, -46, 29, -103, -57, 97, -99, 3, 0, 1, 73, 0, 4, 115, 105, 122, 101, 120, 112, 0, 0, 0, 0, 119, 4, 0, 0, 0, 0, 120]
+        m_availableColumns: r0x7e0019: java.util.ArrayList _h0x7e0019 = r_0x7e0005;  
+        m_searchFilterState: r0x7e0053: [String 0x7e0053: "2658196038"]
+        m_searchFilterComplete: true
+        m_expandedChildPrimaryKey: null
+        m_tableCustomizerData: null
+        m_searchFormState: r0x7e0054: [String 0x7e0054: "<?xml version="1.0" encoding="UTF-8"?>
+<form-state formId="ObjectOrdersCreatedSearchForm" formQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm">
+  <properties/>
+  <fields>
+    <field fieldId="MainBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox"/>
+    <field fieldId="TabBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox"/>
+    <field fieldId="SimpleBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox"/>
+    <field fieldId="OrderNumber" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderNumber" value=""/>
+    <field fieldId="Supplier" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$Supplier" value=""/>
+    <field fieldId="ObjectNumber" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$ObjectNumber" value=""/>
+    <field fieldId="CompiledOnRange" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$CompiledOnRange"/>
+    <field fieldId="CompiledOnFromField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$CompiledOnRange$CompiledOnFromField" value=""/>
+    <field fieldId="CompiledOnToField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$CompiledOnRange$CompiledOnToField" value=""/>
+    <field fieldId="SentAtBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$SentAtBox"/>
+    <field fieldId="SentAtFrom" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$SentAtBox$SentAtFrom" value=""/>
+    <field fieldId="SentAtTo" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$SentAtBox$SentAtTo" value=""/>
+    <field fieldId="StatusField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$StatusField" value=""/>
+    <field fieldId="OrderType" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderType" value=""/>
+    <field fieldId="OrderConfirmationsOfAllObjectsExistingGroup" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup" value=""/>
+    <field fieldId="YesButton" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup$YesButton">
+      <enclosingField fieldId="OrderConfirmationsOfAllObjectsExistingGroup" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup"/>
+    </field>
+    <field fieldId="NoButton" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup$NoButton">
+      <enclosingField fieldId="OrderConfirmationsOfAllObjectsExistingGroup" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup$AllButton">
+      <enclosingField fieldId="OrderConfirmationsOfAllObjectsExistingGroup" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$OrderConfirmationsOfAllObjectsExistingGroup"/>
+    </field>
+    <field fieldId="ResponsibleUserField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$SimpleBox$ResponsibleUserField" value="rO0ABXNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAB/F3mg=="/>
+    <field fieldId="DetailBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox"/>
+    <field fieldId="OrderNumberSAP" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$OrderNumberSAP" value=""/>
+    <field fieldId="OrderDateSAPRange" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$OrderDateSAPRange"/>
+    <field fieldId="OrderDateSAPFromField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$OrderDateSAPRange$OrderDateSAPFromField" value=""/>
+    <field fieldId="OrderDateSAPToField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$OrderDateSAPRange$OrderDateSAPToField" value=""/>
+    <field fieldId="ConfirmationNo" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$ConfirmationNo" value=""/>
+    <field fieldId="ConfirmationDateRange" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$ConfirmationDateRange"/>
+    <field fieldId="ConfirmationDateFromField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$ConfirmationDateRange$ConfirmationDateFromField" value=""/>
+    <field fieldId="ConfirmationDateToField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$ConfirmationDateRange$ConfirmationDateToField" value=""/>
+    <field fieldId="HasDocumentOfTypeField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$HasDocumentOfTypeField" value=""/>
+    <field fieldId="HasNotDocumentOfTypeField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$DetailBox$HasNotDocumentOfTypeField" value=""/>
+    <field fieldId="ComposerBox" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$ComposerBox"/>
+    <field fieldId="ComposerField" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$TabBox$ComposerBox$ComposerField"/>
+    <field fieldId="SearchButton" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$SearchButton"/>
+    <field fieldId="ResetButton" fieldQname="com.bsiag.fleet.client.ui.searchforms.ObjectOrdersCreatedSearchForm$MainBox$ResetButton"/>
+  </fields>
+</form-state>
+"]
+        m_visibleColumns: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e0018: [String 0x7e0018: "com.bsiag.fleet.client.ui.desktop.outlines.pages.ObjectOrdersCreatedTablePage"]
+        m_bookmarkIdentifier: r0x7e0016: [String 0x7e0016: "PRESENTATION_TYPE_OBJECT_ORDERS_CREATED"]
+        m_expanded: null
+        m_label: r0x7e0017: [String 0x7e0017: "Aufträge (eröffnet)"]
+    0x7e0011/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState:
+        m_pageParam: null
+]
+[instance 0x7e000e: 0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState
+  field data:
+    0x7e0009/org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState:
+    0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState:
+        m_pageParam: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e0010: [String 0x7e0010: "com.bsiag.fleet.client.ui.desktop.outlines.pages.ObjectOrderFolderPage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: r0x7e000f: [String 0x7e000f: "Objekte"]
+]
+[instance 0x7e000c: 0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState
+  field data:
+    0x7e0009/org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState:
+    0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState:
+        m_pageParam: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e000d: [String 0x7e000d: "org.eclipse.scout.rt.client.ui.desktop.outline.AbstractOutline$InvisibleRootPage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: null
+]
+[instance 0x7e0006: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        com.bsiag.crm.shared.core.bookmarks.CoreNodePageState _h0x7e000c = r_0x7e0007;  
+        com.bsiag.crm.shared.core.bookmarks.CoreNodePageState _h0x7e000e = r_0x7e0007;  
+        com.bsiag.crm.shared.core.bookmarks.CoreTablePageState _h0x7e0015 = r_0x7e0011;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 3
+]
+[instance 0x7e0003: 0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark
+  field data:
+    0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark:
+        m_order: 0.0
+        m_text: r0x7e0058: [String 0x7e0058: "Objekte
+  Aufträge (eröffnet)
+    Zuständig = Alter, Frank (DB FPS MANDANT (FPS)) - 363328"]
+        m_keyStroke: null
+        m_iconId: null
+        m_outlineClassName: r0x7e0004: [String 0x7e0004: "com.bsiag.fleet.client.ui.desktop.outlines.AcquisitionOutline"]
+        m_title: r0x7e0059: [String 0x7e0059: "Objekte - Auftrag (eröffnet)"]
+        m_new: false
+        m_id: 1616655628
+        m_kind: 1
+        m_path: r0x7e0006: java.util.ArrayList _h0x7e0006 = r_0x7e0005;  
+]
+//// END instance dump
+

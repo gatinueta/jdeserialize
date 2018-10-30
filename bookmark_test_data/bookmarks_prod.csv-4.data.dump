@@ -1,0 +1,1276 @@
+read: org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// BEGIN stream content output
+org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark _h0x7e0003 = r_0x7e0000;  
+//// END stream content output
+
+//// BEGIN class declarations (excluding array classes)
+class com.bsiag.crm.shared.core.AbstractPageParam implements java.io.Serializable {
+}
+
+class com.bsiag.fleet.crm.shared.claim.AbstractClaimTablePageParam extends com.bsiag.crm.shared.core.AbstractPageParam implements java.io.Serializable {
+    com.bsiag.fleet.crm.shared.claim.ClaimKey m_claimKey;
+}
+
+class com.bsiag.fleet.crm.shared.claim.AllClaimTablePageParam extends com.bsiag.fleet.crm.shared.claim.AbstractClaimTablePageParam implements java.io.Serializable {
+    com.bsiag.fleet.crm.shared.car.CarKey m_carKey;
+    com.bsiag.crm.shared.core.company.CompanyKey m_companyKey;
+    com.bsiag.crm.shared.core.person.PersonKey m_personKey;
+}
+
+class java.lang.Boolean implements java.io.Serializable {
+    boolean value;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState implements java.io.Serializable {
+    boolean m_groupingActive;
+    boolean m_sortAscending;
+    int m_sortOrder;
+    int m_width;
+    java.lang.String m_aggregationFunction;
+    java.lang.String m_backgroundEffect;
+    java.lang.String m_className;
+    byte[] m_columnFilterData;
+    java.lang.Boolean m_displayable;
+    java.lang.Boolean m_visible;
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreTablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    boolean m_searchFilterComplete;
+    java.util.List m_availableColumns;
+    org.eclipse.scout.rt.platform.util.CompositeObject m_expandedChildPrimaryKey;
+    java.lang.String m_searchFilterState;
+    java.lang.String m_searchFormState;
+    java.util.List m_selectedChildrenPrimaryKeys;
+    byte[] m_tableCustomizerData;
+    byte[] m_userFilterData;
+    java.util.List m_visibleColumns;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+    java.lang.String m_bookmarkIdentifier;
+    java.lang.Boolean m_expanded;
+    java.lang.String m_label;
+    java.lang.String m_pageClassName;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState implements java.io.Serializable {
+}
+
+class com.bsiag.crm.shared.core.bookmarks.CoreNodePageState extends org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState implements java.io.Serializable {
+    com.bsiag.crm.shared.core.IPageParam m_pageParam;
+}
+
+class java.util.ArrayList implements java.io.Serializable {
+    int size;
+}
+
+class org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark implements java.io.Serializable {
+    long m_id;
+    int m_kind;
+    boolean m_new;
+    double m_order;
+    java.lang.String m_iconId;
+    java.lang.String m_keyStroke;
+    java.lang.String m_outlineClassName;
+    java.util.List m_path;
+    java.lang.String m_text;
+    java.lang.String m_title;
+}
+
+//// END class declarations
+
+//// BEGIN instance dump
+[instance 0x7e0075: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 0
+]
+[instance 0x7e0071: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0072: [String 0x7e0072: "$PostFetchRowData$"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e006f: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0070: [String 0x7e0070: "ClosingInvoiceForeground"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e006d: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e006e: [String 0x7e006e: "NewValue"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e006b: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e006c: [String 0x7e006c: "CurrentValue"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0069: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e0067: [String 0x7e0067: "sum"]
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e006a: [String 0x7e006a: "ClaimImportCarNr"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0066: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: r0x7e0067: [String 0x7e0067: "sum"]
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0068: [String 0x7e0068: "ClaimImportNr"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0064: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 198
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0065: [String 0x7e0065: "LastClaimModificationDisplayText"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0062: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 165
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0063: [String 0x7e0063: "LastClaimModificationEntity"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0060: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 165
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0061: [String 0x7e0061: "LastClaimModificationDate"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e005e: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 157
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e005f: [String 0x7e005f: "FinalInvoiceStatus"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e005c: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 0
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e005d: [String 0x7e005d: "Foreground2"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e005a: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 0
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e005b: [String 0x7e005b: "Foreground"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0058: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0059: [String 0x7e0059: "Outline"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0056: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 250
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0057: [String 0x7e0057: "ErrorType"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0054: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 100
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0055: [String 0x7e0055: "OrderTo"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0052: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 100
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0053: [String 0x7e0053: "OrderFrom"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0050: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0051: [String 0x7e0051: "OrderType"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004e: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e004f: [String 0x7e004f: "DamageFault"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004c: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e004d: [String 0x7e004d: "DamageCause"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e004a: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e004b: [String 0x7e004b: "Remark"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0048: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0049: [String 0x7e0049: "RemarkDamage"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0046: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 194
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0047: [String 0x7e0047: "DamageNumberInsurer"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0044: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0045: [String 0x7e0045: "DispatchNr"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0042: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0043: [String 0x7e0043: "Driver"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0040: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 132
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0041: [String 0x7e0041: "OnlineRuecknahme"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003e: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e003f: [String 0x7e003f: "TheDate"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003c: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e003d: [String 0x7e003d: "NumberPlateThirdParty"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e003a: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e003b: [String 0x7e003b: "NameThirdParty"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0038: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 120
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0039: [String 0x7e0039: "CarKey"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0036: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 165
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0037: [String 0x7e0037: "InsuranceThirdParty"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0034: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0035: [String 0x7e0035: "ChassisNumber"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0032: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0033: [String 0x7e0033: "CarNumberClient"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0030: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 95
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0031: [String 0x7e0031: "PlateNumber"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002e: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 200
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e002f: [String 0x7e002f: "CarStatus"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002c: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 200
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e002d: [String 0x7e002d: "BrandType"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e002a: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 200
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e002b: [String 0x7e002b: "RenterCostCentre"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0028: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 200
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0029: [String 0x7e0029: "Renter"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0027: 0x7e0019/java.lang.Boolean
+  field data:
+    0x7e0019/java.lang.Boolean:
+        value: false
+]
+[instance 0x7e0025: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 60
+        m_displayable: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0026: [String 0x7e0026: "ClaimKey"]
+        m_groupingActive: false
+        m_visible: r0x7e0027: java.lang.Boolean _h0x7e0027 = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0023: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 120
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0024: [String 0x7e0024: "CarNumber"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0021: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 180
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0022: [String 0x7e0022: "Phase"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e001f: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 122
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0020: [String 0x7e0020: "Status"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e001d: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e001e: [String 0x7e001e: "WithdrawalReason"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e001a: 0x7e0019/java.lang.Boolean
+  field data:
+    0x7e0019/java.lang.Boolean:
+        value: true
+]
+[instance 0x7e001b: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 90
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e001c: [String 0x7e001c: "Type"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0017: 0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState
+  field data:
+    0x7e0016/org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState:
+        m_sortOrder: -1
+        m_aggregationFunction: null
+        m_width: 150
+        m_displayable: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_backgroundEffect: null
+        m_className: r0x7e0018: [String 0x7e0018: "CaseNumber"]
+        m_groupingActive: false
+        m_visible: r0x7e001a: java.lang.Boolean _h0x7e001a = r_0x7e0019;  
+        m_sortAscending: false
+        m_columnFilterData: null
+]
+[instance 0x7e0015: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0017 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e001b = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e001d = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e001f = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0021 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0023 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0025 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0028 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002a = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002c = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e002e = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0030 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0032 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0034 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0036 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0038 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003a = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003c = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e003e = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0040 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0042 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0044 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0046 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0048 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004a = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004c = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e004e = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0050 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0052 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0054 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0056 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0058 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005a = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005c = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e005e = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0060 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0062 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0064 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0066 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0069 = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006b = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006d = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e006f = r_0x7e0016;  
+        org.eclipse.scout.rt.shared.services.common.bookmark.TableColumnState _h0x7e0071 = r_0x7e0016;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 44
+]
+[instance 0x7e0012: 0x7e000e/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState
+  field data:
+    0x7e000f/org.eclipse.scout.rt.shared.services.common.bookmark.TablePageState:
+        m_selectedChildrenPrimaryKeys: r0x7e0075: java.util.ArrayList _h0x7e0075 = r_0x7e0005;  
+        m_userFilterData: r0x7e0078: [array 0x7e0078 classdesc [cd 0x7e0076: name [B uid -5984413125824719648]: [arraycoll sz 58 -84, -19, 0, 5, 115, 114, 0, 19, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, 116, 120, -127, -46, 29, -103, -57, 97, -99, 3, 0, 1, 73, 0, 4, 115, 105, 122, 101, 120, 112, 0, 0, 0, 0, 119, 4, 0, 0, 0, 0, 120]
+        m_availableColumns: r0x7e0015: java.util.ArrayList _h0x7e0015 = r_0x7e0005;  
+        m_searchFilterState: r0x7e0073: [String 0x7e0073: "653167300"]
+        m_searchFilterComplete: true
+        m_expandedChildPrimaryKey: null
+        m_tableCustomizerData: r0x7e0077: [array 0x7e0077 classdesc [cd 0x7e0076: name [B uid -5984413125824719648]: [arraycoll sz 58 -84, -19, 0, 5, 115, 114, 0, 19, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, 116, 120, -127, -46, 29, -103, -57, 97, -99, 3, 0, 1, 73, 0, 4, 115, 105, 122, 101, 120, 112, 0, 0, 0, 0, 119, 4, 0, 0, 0, 0, 120]
+        m_searchFormState: r0x7e0074: [String 0x7e0074: "<?xml version="1.0" encoding="UTF-8"?>
+<form-state formId="ClaimSearchForm" formQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm">
+  <properties>
+    <property name="semanticDomainKeyDescriptor" value="rO0ABXNyADNjb20uYnNpYWcuZmxlZXQuY3JtLnNoYXJlZC5jbGFpbS5DbGFpbUtleURlc2NyaXB0b3IAAAAAAAAAAQIAAHhyADxjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmRvbWFpbi5BYnN0cmFjdERvbWFpbktleURlc2NyaXB0b3IAAAAAAAAAAQIAAHhw"/>
+  </properties>
+  <fields>
+    <field fieldId="MainBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox"/>
+    <field fieldId="TabBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox"/>
+    <field fieldId="SimpleBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox"/>
+    <field fieldId="ClaimField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$ClaimField" value=""/>
+    <field fieldId="TypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$TypeField" value="rO0ABXNyADBjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbmZpZ3VyYXRpb24uY29kZS5VaWQAAAAAAAAAAQIAAloAFW1fc3VwcHJlc3NSZWFkUmVzb2x2ZUwADG1fY29kZVR5cGVJZHQAEExqYXZhL2xhbmcvTG9uZzt4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAAAAIBk8Ac3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAAACAZN"/>
+    <field fieldId="PhaseField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$PhaseField" value="rO0ABXNyADBjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbmZpZ3VyYXRpb24uY29kZS5VaWQAAAAAAAAAAQIAAloAFW1fc3VwcHJlc3NSZWFkUmVzb2x2ZUwADG1fY29kZVR5cGVJZHQAEExqYXZhL2xhbmcvTG9uZzt4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAAAAKvt0Ac3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAAACq+Y"/>
+    <field fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAXNyADBjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbmZpZ3VyYXRpb24uY29kZS5VaWQAAAAAAAAAAQIAAloAFW1fc3VwcHJlc3NSZWFkUmVzb2x2ZUwADG1fY29kZVR5cGVJZHQAEExqYXZhL2xhbmcvTG9uZzt4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAAAAHTt8Ac3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAAABUKxeA=="/>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="StatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$StatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="CarNumberField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$CarNumberField" value=""/>
+    <field fieldId="PlateNumberField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$PlateNumberField" value=""/>
+    <field fieldId="ChassisNumberField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$ChassisNumberField" value=""/>
+    <field fieldId="MandatorField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$MandatorField" value=""/>
+    <field fieldId="KeywordsField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$SimpleBox$KeywordsField" value=""/>
+    <field fieldId="DetailBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox"/>
+    <field fieldId="WithdrawalReasonField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$WithdrawalReasonField" value=""/>
+    <field fieldId="CompetentDepartmentField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$CompetentDepartmentField" value=""/>
+    <field fieldId="TheDateRange" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$TheDateRange"/>
+    <field fieldId="TheDateFromField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$TheDateRange$TheDateFromField" value=""/>
+    <field fieldId="TheDateToField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$TheDateRange$TheDateToField" value=""/>
+    <field fieldId="FinalInvoiceStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$FinalInvoiceStatusField" value=""/>
+    <field fieldId="FinalInvoiceDateBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$FinalInvoiceDateBox"/>
+    <field fieldId="FinalInvoiceDateFrom" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$FinalInvoiceDateBox$FinalInvoiceDateFrom" value=""/>
+    <field fieldId="FinalInvoiceDateTo" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$DetailBox$FinalInvoiceDateBox$FinalInvoiceDateTo" value=""/>
+    <field fieldId="FollowUpBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox"/>
+    <field fieldId="DueOnBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$DueOnBox"/>
+    <field fieldId="DueOnFromField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$DueOnBox$DueOnFromField" value=""/>
+    <field fieldId="DueOnToField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$DueOnBox$DueOnToField" value=""/>
+    <field fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="EventTypeField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventTypeField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg="/>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="EventStatusField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$EventStatusField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="CodeNameField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$CodeNameField" value=""/>
+    <field fieldId="CreatedOnBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$CreatedOnBox"/>
+    <field fieldId="CreatedOnFromField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$CreatedOnBox$CreatedOnFromField" value=""/>
+    <field fieldId="CreatedOnToField" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$FollowUpBox$CreatedOnBox$CreatedOnToField" value=""/>
+    <field fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    <field fieldId="ComposerField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ComposerField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <entity displayValues="" id="ClaimEntity/ClaimToCarEntity" negated="false">
+        <entity displayValues="" id="ClaimEntity/ClaimToCarEntity/CarToCarBpEntity" negated="false">
+          <attribute displayValue="Mieter" id="ClaimEntity/ClaimToCarEntity/CarToCarBpEntity/CarBpTypeUidAttribute" op="24" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAXNyADBjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbmZpZ3VyYXRpb24uY29kZS5VaWQAAAAAAAAAAQIAAloAFW1fc3VwcHJlc3NSZWFkUmVzb2x2ZUwADG1fY29kZVR5cGVJZHQAEExqYXZhL2xhbmcvTG9uZzt4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAAAAGRaAAc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAAABTXXeA=="/>
+          <entity displayValues="" id="ClaimEntity/ClaimToCarEntity/CarToCarBpEntity/CarBpToLegalEntityEntity" negated="false">
+            <attribute displayValue="Team 1 Kundenbetreuung FPS" id="ClaimEntity/ClaimToCarEntity/CarToCarBpEntity/CarBpToLegalEntityEntity/LegalEntityAdvisorAttribute" op="20" value="rO0ABXNyADFjb20uYnNpYWcuY3JtLnNoYXJlZC5jb3JlLmNvbW1vbi5Vc2VyVGVhbVJvbGVCZWFuAAAAAAAAAAECAAFMABRtX3Jlc3BvbnNpYmxlVHlwZVVpZHQAMkxjb20vYnNpYWcvY3JtL3NoYXJlZC9jb3JlL2NvbmZpZ3VyYXRpb24vY29kZS9VaWQ7eHIASGNvbS5ic2lhZy5jcm0uc2hhcmVkLmNvcmUuY29tbW9uLkFic3RyYWN0Q29udmVydGlibGVUb1BlcnNvblRlYW1Sb2xlQmVhbgAAAAAAAAABAgADTAAYbV9jb252ZXJ0aWJsZVRvUGVyc29uS2V5dAA6TGNvbS9ic2lhZy9jcm0vc2hhcmVkL2NvcmUvcGVyc29uL0lDb252ZXJ0aWJsZVRvUGVyc29uS2V5O0wADW1fdGVhbVJvbGVVaWRxAH4AAUwACW1fdGVhbVVpZHEAfgABeHBzcgAmY29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS51c2VyLlVzZXJLZXkAAAAAAAAAAQIAAUwAEm1fZGlyZWN0b3J5VXNlcktleXQAMUxjb20vYnNpYWcvY3JtL3NoYXJlZC9jb3JlL3VzZXIvRGlyZWN0b3J5VXNlcktleTt4cgBBY29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3RQYXJ0aXRpb25lZERvbWFpblJvb3RLZXkAAAAAAAAAAQIAAUwADm1fcGFydGl0aW9uVWlkcQB+AAF4cgA2Y29tLmJzaWFnLmNybS5zaGFyZWQuY29yZS5kb21haW4uQWJzdHJhY3REb21haW5Sb290S2V5AAAAAAAAAAECAAFKAAVtX2tleXhwAAAAABUFPdlwcHBwc3IAMGNvbS5ic2lhZy5jcm0uc2hhcmVkLmNvcmUuY29uZmlndXJhdGlvbi5jb2RlLlVpZAAAAAAAAAABAgACWgAVbV9zdXBwcmVzc1JlYWRSZXNvbHZlTAAMbV9jb2RlVHlwZUlkdAAQTGphdmEvbGFuZy9Mb25nO3hxAH4ACAAAAAAAARbrAHNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAEW6Q=="/>
+          </entity>
+        </entity>
+      </entity>
+    </field>
+    <field fieldId="EntityAttributeBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="EntityAttributeSearchField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox$EntityAttributeSearchField"/>
+    <field fieldId="EntityAttributeField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$EntityAttributeBox$EntityAttributeField"/>
+    <field fieldId="ValueBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="OpBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="AggregationField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox$AggregationField"/>
+    <field fieldId="OperatorField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$OpBox$OperatorField"/>
+    <field fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    <field fieldId="InfoBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox$InfoBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="InfoField" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox$InfoBox$InfoField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="MultilineStringField" fieldQname="com.bsiag.crm.client.core.common.field.CoreComposerValueBoxExtension$MultilineStringField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenBigDecimalField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField$BigDecimalFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenBigDecimalField$BigDecimalToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenDateField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField$DateFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateField$DateToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenDateTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField$DateTimeFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenDateTimeField$DateTimeToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenIntegerField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField$IntegerFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenIntegerField$IntegerToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenLongField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="LongFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField$LongFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="LongToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenLongField$LongToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BetweenTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeFromField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField$TimeFromField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeToField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BetweenTimeField$TimeToField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="BigDecimalField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$BigDecimalField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$DateField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="DateTimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$DateTimeField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="IntegerField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$IntegerField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAABA/QAAAAAAAAHg=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="ListBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$ListBoxField"/>
+      <enclosingField fieldId="ListBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBox$ListBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.listbox.AbstractListBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="LongField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$LongField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="SmartField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$SmartField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="StringField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$StringField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TimeField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TimeField" value="">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaFNldLpEhZWWuLc0AwAAeHB3DAAAAAE/QAAAAAAAAHg=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+    </field>
+    <field fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+    </field>
+    <field fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="CheckedButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$CheckedButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AllButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup$AllButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="CheckedStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$CheckedStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup" value="rO0ABX5yACtvcmcuZWNsaXBzZS5zY291dC5ydC5wbGF0Zm9ybS51dGlsLlRyaVN0YXRlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAEVFJVRQ==">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+    </field>
+    <field fieldId="ActiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="InactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$InactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="ActiveAndInactiveButton" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup$ActiveAndInactiveButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+      <enclosingField fieldId="ValueFieldsBox" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$ValueFieldsBox"/>
+      <enclosingField fieldId="TreeBoxField" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.composer.AbstractComposerValueBox$TreeBoxField"/>
+      <enclosingField fieldId="TreeBoxFilterBox" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBox$TreeBoxFilterBox"/>
+      <enclosingField fieldId="ActiveStateRadioButtonGroup" fieldQname="org.eclipse.scout.rt.client.ui.form.fields.treebox.AbstractTreeBoxFilterBox$ActiveStateRadioButtonGroup"/>
+    </field>
+    <field fieldId="AddButton" fieldQname="com.bsiag.crm.client.core.common.field.AbstractAdvancedSearchBox$ValueBox$AddButton">
+      <enclosingField fieldId="AdvancedSearchBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$AdvancedSearchBox"/>
+    </field>
+    <field fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    <field fieldId="CategoryBox" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategorySearchField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox$CategorySearchField" value="">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategoryTreeField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryBox$CategoryTreeField">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchLabelField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$SearchLabelField" value="">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchDisplayField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$SearchDisplayField" rows="rO0ABXVyABRbW0xqYXZhLmxhbmcuT2JqZWN0Oxi/+1Pka9vKAgAAeHAAAAAA" selectedRowIndices="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="CategoryComposerField" fieldQname="com.bsiag.crm.client.core.common.category.AbstractCategoriesBox$CategoryComposerField">
+      <enclosingField fieldId="CategoriesBox" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$TabBox$CategoriesBox"/>
+    </field>
+    <field fieldId="SearchButton" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$SearchButton"/>
+    <field fieldId="ResetButton" fieldQname="com.bsiag.fleet.client.core.claim.ClaimSearchForm$MainBox$ResetButton"/>
+  </fields>
+</form-state>
+"]
+        m_visibleColumns: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e0014: [String 0x7e0014: "com.bsiag.fleet.client.core.claim.AllClaimTablePage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: r0x7e0013: [String 0x7e0013: "Fallabwicklungen"]
+    0x7e000e/com.bsiag.crm.shared.core.bookmarks.CoreTablePageState:
+        m_pageParam: r0x7e0080: com.bsiag.fleet.crm.shared.claim.AllClaimTablePageParam _h0x7e0080 = r_0x7e0079;  
+]
+[instance 0x7e000c: 0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState
+  field data:
+    0x7e0009/org.eclipse.scout.rt.shared.services.common.bookmark.NodePageState:
+    0x7e0007/com.bsiag.crm.shared.core.bookmarks.CoreNodePageState:
+        m_pageParam: null
+    0x7e000a/org.eclipse.scout.rt.shared.services.common.bookmark.AbstractPageState:
+        m_pageClassName: r0x7e000d: [String 0x7e000d: "org.eclipse.scout.rt.client.ui.desktop.outline.AbstractOutline$InvisibleRootPage"]
+        m_bookmarkIdentifier: null
+        m_expanded: null
+        m_label: null
+]
+[instance 0x7e0006: 0x7e0005/java.util.ArrayList
+  object annotations:
+    java.util.ArrayList
+        [blockdata 0x00: 4 bytes]
+        com.bsiag.crm.shared.core.bookmarks.CoreNodePageState _h0x7e000c = r_0x7e0007;  
+        com.bsiag.crm.shared.core.bookmarks.CoreTablePageState _h0x7e0012 = r_0x7e000e;  
+
+  field data:
+    0x7e0005/java.util.ArrayList:
+        size: 2
+]
+[instance 0x7e0003: 0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark
+  field data:
+    0x7e0000/org.eclipse.scout.rt.shared.services.common.bookmark.Bookmark:
+        m_order: 0.0
+        m_title: r0x7e0082: [String 0x7e0082: "Fallabwicklungen (Ticket #224301)"]
+        m_keyStroke: null
+        m_iconId: null
+        m_outlineClassName: r0x7e0004: [String 0x7e0004: "com.bsiag.fleet.client.ui.desktop.outlines.FleetStandardOutline"]
+        m_text: r0x7e0081: [String 0x7e0081: "Fallabwicklungen
+  Typ = Fahrzeugrücknahme
+  Phase = Endabrechnung Kunde
+  Status ist eröffnet
+  Fahrzeug mit
+   Fahrzeug - Geschäftspartner Beziehungen mit
+    Beziehung ist Mieter
+    und Geschäftspartner mit
+     Betreuung ist Team 1 Kundenbetreuung FPS"]
+        m_new: false
+        m_id: 1624983083
+        m_kind: 1
+        m_path: r0x7e0006: java.util.ArrayList _h0x7e0006 = r_0x7e0005;  
+]
+[instance 0x7e0080: 0x7e0079/com.bsiag.fleet.crm.shared.claim.AllClaimTablePageParam
+  field data:
+    0x7e0079/com.bsiag.fleet.crm.shared.claim.AllClaimTablePageParam:
+        m_carKey: null
+        m_companyKey: null
+        m_personKey: null
+    0x7e007f/com.bsiag.crm.shared.core.AbstractPageParam:
+    0x7e007d/com.bsiag.fleet.crm.shared.claim.AbstractClaimTablePageParam:
+        m_claimKey: null
+]
+//// END instance dump
+
